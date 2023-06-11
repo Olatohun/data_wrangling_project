@@ -12,16 +12,46 @@ The dataset that you will be wrangling (and analyzing and visualizing) is the tw
 
 The analysis tasks in this project are as follows:
 
-Step 1: Gathering data
+      Step 1: Gathering data
 
-Step 2: Assessing data
+      Step 2: Assessing data
 
-Step 3: Cleaning data
+      Step 3: Cleaning data
 
-Step 4: Storing data
+      Step 4: Storing data
 
-Step 5: Analyzing, and visualizing data
+      Step 5: Analyzing, and visualizing data
 
-Step 6: Reporting
-   - data wrangling efforts
-   - data analyses and visualizations
+      Step 6: Reporting
+         - data wrangling efforts
+         - data analyses and visualizations
+
+
+## Installations
+The following packages (libraries) need to be installed. You can install these packages via conda or pip. Please revisit our Anaconda tutorial earlier in the Nanodegree program for package installation instructions.
+   
+   -	pandas
+   
+   -	NumPy
+   
+   -	requests
+   
+   -	tweepy
+   
+   -	json
+
+
+## Data
+This project, includes three datasets.
+
+> Enhanced Twitter Archive
+The WeRateDogs Twitter archive (`twitter-archive-enhanced`) contains basic tweet data for all 5000+ of their tweets, but not everything. One column the archive does contain though: each tweet's text, which was used to extract rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced." Of the 5000+ tweets, tweets are filtered for ratings only (there are 2356).
+
+> Additional Data via the Twitter API
+This dataset (`tweet_df`) contains retweet count and favorite count which are two of the notable column omissions from the dataset above. Fortunately, this additional data can be gathered by from Twitter's API through data wrangling. I was able to query Twitter's API to gather this valuable data. 
+
+> Image Predictions File
+This dataset (`image_predictions`) contain a classification of breeds of dogs*. The dataset is  a table full of image predictions (the top three only) alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction (numbered 1 to 4 since tweets can have up to four images).
+
+
+The combined and cleaned dataset for the overall analysis and visualizations is: `twitter_archive_master.csv`
