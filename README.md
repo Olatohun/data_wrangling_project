@@ -11,11 +11,17 @@ The dataset that you will be wrangling (and analyzing and visualizing) is the tw
 ## Project implementation Steps Overview
 
 The analysis tasks in this project are as follows:
+
 Step 1: Gathering data
+
 Step 2: Assessing data
+
 Step 3: Cleaning data
+
 Step 4: Storing data
+
 Step 5: Analyzing, and visualizing data
+
 Step 6: Reporting
    - data wrangling efforts
    - data analyses and visualizations
