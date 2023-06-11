@@ -44,14 +44,24 @@ The following packages (libraries) need to be installed. You can install these p
 ## Data
 This project, includes three datasets.
 
-            __Enhanced Twitter Archive__
-            The WeRateDogs Twitter archive (`twitter-archive-enhanced`) contains basic tweet data for all 5000+ of their tweets, but not everything. One column the archive does contain though: each tweet's text, which was used to extract rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced." Of the 5000+ tweets, tweets are filtered for ratings only (there are 2356).
+__Enhanced Twitter Archive__
 
-> Additional Data via the Twitter API
+The WeRateDogs Twitter archive (`twitter-archive-enhanced`) contains basic tweet data for all 5000+ of their tweets, but not everything. One column the archive does contain though: each tweet's text, which was used to extract rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced." Of the 5000+ tweets, tweets are filtered for ratings only (there are 2356).
+
+__Additional Data via the Twitter API__
+
 This dataset (`tweet_df`) contains retweet count and favorite count which are two of the notable column omissions from the dataset above. Fortunately, this additional data can be gathered by from Twitter's API through data wrangling. I was able to query Twitter's API to gather this valuable data. 
 
-> Image Predictions File
+__Image Predictions File__
+
 This dataset (`image_predictions`) contain a classification of breeds of dogs*. The dataset is  a table full of image predictions (the top three only) alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction (numbered 1 to 4 since tweets can have up to four images).
 
 
 The combined and cleaned dataset for the overall analysis and visualizations is: `twitter_archive_master.csv`
+
+
+## Result
+
+`wrangle_report.pdf` or `wrangle_report.ipynb` is a written report that briefly describes the wrangling efforts. 
+`act_report.pdf` or `act_report.ipynb` is a written document  that communicates all the insights and displays the visualization(s) produced from the wrangled data. 
+
