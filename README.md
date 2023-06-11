@@ -44,8 +44,8 @@ The following packages (libraries) need to be installed. You can install these p
 ## Data
 This project, includes three datasets.
 
-> Enhanced Twitter Archive
-The WeRateDogs Twitter archive (`twitter-archive-enhanced`) contains basic tweet data for all 5000+ of their tweets, but not everything. One column the archive does contain though: each tweet's text, which was used to extract rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced." Of the 5000+ tweets, tweets are filtered for ratings only (there are 2356).
+            __Enhanced Twitter Archive__
+            The WeRateDogs Twitter archive (`twitter-archive-enhanced`) contains basic tweet data for all 5000+ of their tweets, but not everything. One column the archive does contain though: each tweet's text, which was used to extract rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced." Of the 5000+ tweets, tweets are filtered for ratings only (there are 2356).
 
 > Additional Data via the Twitter API
 This dataset (`tweet_df`) contains retweet count and favorite count which are two of the notable column omissions from the dataset above. Fortunately, this additional data can be gathered by from Twitter's API through data wrangling. I was able to query Twitter's API to gather this valuable data. 
