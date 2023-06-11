@@ -30,15 +30,15 @@ The analysis tasks in this project are as follows:
 ## Installations
 The following packages (libraries) need to be installed. You can install these packages via conda or pip. Please revisit our Anaconda tutorial earlier in the Nanodegree program for package installation instructions.
    
-   -	pandas
-   
-   -	NumPy
-   
-   -	requests
-   
-   -	tweepy
-   
-   -	json
+         -	pandas
+
+         -	NumPy
+
+         -	requests
+
+         -	tweepy
+
+         -	json
 
 
 ## Data
